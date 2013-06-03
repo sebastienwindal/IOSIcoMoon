@@ -41,9 +41,9 @@ For instance, the previous icon set will generate those 5 #defines:
 # 3. Use it in your app
 
 * Add the ```IcomoonIcons.h``` file and the ttf font file icomoon.ttf in your app project.
-* Make sure your add an entry in your app info.plist for the icomoon.ttf font file 
+* Make sure your add an entry in your app ```info.plist``` for the ```icomoon.ttf``` font file 
 ("Fonts provided by application"/UIAppFonts row).
-* Add the IcoMoon.m and IcoMoon.h to your project. This class is a very simple class that imports the generated 
+* Add the ```IcoMoon.m``` and ```IcoMoon.h``` to your project. This class is a very simple class that imports the generated 
 ```IcomoonIcons.h``` and that contains only one method:
 
 ```obj-c
