@@ -1,0 +1,5 @@
+Pods/*
+*.xcuserstate
+*.xcbkptlist
+
+*.xcworkspacedata
