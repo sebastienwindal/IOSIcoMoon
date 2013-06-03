@@ -61,8 +61,8 @@ you could go by without it really, I just find
 [NSString stringWithUTF8String:ICOMOON_BUBBLES];
 ``` 
 not as readable as
-```
-obj-c [IcoMoon iconString:ICOMOON_BUBBLES];
+```obj-c 
+[IcoMoon iconString:ICOMOON_BUBBLES];
 ```
 
 In your app, you can now simply make a UILabel look like an icon:
