@@ -72,6 +72,17 @@ In your app, you can now simply make a UILabel look like an icon:
 self.label.text = [IcoMoon iconString:ICOMOON_BUBBLES];
 ```
 
+The key thing is to set the font to ```@"icomoon"```... 
+Alternatively if you are using [NUI](https://github.com/tombenner/nui) as I am:
+
+```
+Label:BigIcon {
+    font-name: icomoon;
+    font-size: 64;
+    text-align: center;
+}
+```
+
 ![app](iPhone.png)
 
 Run the ExampleApp iPhone app to see it in action.
