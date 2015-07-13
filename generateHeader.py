@@ -18,7 +18,7 @@ doc = minidom.parse('icomoon.dev.svg')  # parseString also exists
 path_strings = [    
                     [   
                         path.getAttribute('unicode'), 
-                        path.getAttribute('data-tags')
+                        path.getAttribute('glyph-name')
                             .split(", ")[0]
                             .encode('ascii', 'ignore')
                             .upper()
