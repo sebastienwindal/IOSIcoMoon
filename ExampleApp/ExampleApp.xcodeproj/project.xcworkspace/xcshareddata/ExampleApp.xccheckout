@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>C0591A07-065F-4FE0-AC9C-32F50308DBE4</string>
+	<key>IDESourceControlProjectName</key>
+	<string>ExampleApp</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>FCF1DD35556CE4DC142C9959926E34286856A557</key>
+		<string>https://github.com/djmason9/IOSIcoMoon.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>ExampleApp/ExampleApp.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>FCF1DD35556CE4DC142C9959926E34286856A557</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/djmason9/IOSIcoMoon.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>FCF1DD35556CE4DC142C9959926E34286856A557</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>FCF1DD35556CE4DC142C9959926E34286856A557</string>
+			<key>IDESourceControlWCCName</key>
+			<string>IOSIcoMoon</string>
+		</dict>
+	</array>
+</dict>
+</plist>

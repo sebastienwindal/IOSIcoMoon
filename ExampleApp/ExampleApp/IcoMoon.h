@@ -7,7 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "IcomoonIcons.h"
+#import "IcoMoon.h"
 
 @interface IcoMoon : NSObject
 
