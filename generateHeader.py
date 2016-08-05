@@ -4,26 +4,26 @@ from xml.dom import minidom
 
 icoMoonFile = open("IcomoonIcons.h", "w")
 
-icoMoonFile.write(  "//\n" + 
-                    "//  IcomoonIcons.h\n" + 
+icoMoonFile.write(  "//\n" +
+                    "//  IcomoonIcons.h\n" +
                     "//\n" +
                     "//  Generated from icomoon.dev.svg.\n" +
                     "//\n\n\n" +
                     "#ifndef Icomoon_Icons_h\n" +
                     "#define Icomoon_Icons_h\n\n\n")
 
-doc = minidom.parse('icomoon.dev.svg')  # parseString also exists
+doc = minidom.parse('icomoon.svg')  # parseString also exists
 
 # name each unicode character using its first tag...
-path_strings = [    
-                    [   
-                        path.getAttribute('unicode'), 
-                        path.getAttribute('data-tags')
+path_strings = [
+                    [
+                        path.getAttribute('unicode'),
+                        path.getAttribute('glyph-name')
                             .split(", ")[0]
                             .encode('ascii', 'ignore')
                             .upper()
                             .replace("-", "_")
-                    ] 
+                    ]
                     for path in doc.getElementsByTagName('glyph')
                 ]
 
